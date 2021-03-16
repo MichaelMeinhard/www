@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-image: linear-gradient(to left, #f012c0,#077ff0,#ff00ea)
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 50px;
+}
+h2 {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 50px;
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 20px;
+}
+h4 {
+    font-size: 20px;
+    color: white;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+p{
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}
+figure{
+    text-align: center;
+    color: white;
+} 
+table, td, th {
+      border: 1px solid black;
+      border-collapse: collapse;
+}
+td, th {
+    padding: 5px 50px;
+    font-size: 22px;
+}
+th {
+    background-color: blueviolet;
+    color: #ffffff;
+}
+caption {
+    font-size: 1.2em;
+    background-color: blue;
+    color: #ffffff;
+}
+.otazka {
+    font-size: 30px;
+    color: white;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+li {
+     font-size: 20px;
+     color: #ffffff;
+}
+.odkaz {
+    color: blue;
+}
+.zkratka {
+    color: rgb(0, 252, 155);
+}

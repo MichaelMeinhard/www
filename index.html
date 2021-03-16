@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>World Wild Web</h1>
+    </header>
+    <main>
+        <p>World Wide Web (WWW, také pouze zkráceně web), ve volném překladu „celosvětová pavučina“, je označení pro
+            aplikace internetového protokolu <abbr class="zkratka" title="Hypertext Transfer Protocol">HTTP</abbr>. Je
+            tím myšlena
+            soustava propojených hypertextových dokumentů. Služba se zrodila se v roce 1989 v evropském vědeckém centru
+            <a class="odkaz"
+                href="https://cs.wikipedia.org/wiki/Evropsk%C3%A1_organizace_pro_jadern%C3%BD_v%C3%BDzkum">CERN</a> v
+            Ženevě díky <a class="odkaz" href="https://cs.wikipedia.org/wiki/Tim_Berners-Lee">Timu Berners-Lee</a>.
+        </p>
+        <p>Za hypertext označujeme takový text, který obsahuje propojení na jiné texty pomocí tzv.hypertextových
+            odkazů. Ve službě WWW jsou realizovány jako tzv. URL odkazy.Služba je založena na spolupráci WWW klientů
+            (browserů) WWW serverem. Prvním komerčním prohlížečem webovýchstránek byl na počátku 90. let minulého
+            století Mosaic.
+        </p>
+        <p>Při jejich spolupráci fungují následující mechanismy:</p>
+        <p>Komunikační protokol <abbr class="zkratka" title="Hypertext Transfer Protocol">HTTP</abbr>, pomocí něhož WWW
+            klient a WWW
+            server komunikují.
+        </p>
+        <p>Jazyk HTML (HyperText Markup Language), definující formát WWW stránek, které server vrací klientovi.
+        </p>
+        <p>World Wide Web Consortium (W3C) je mezinárodní konsorcium jehož členové společně s veřejností vyvíjejí
+            webové standardy pro WWW. Konsorciu předsedá <a class="odkaz"
+                href="https://cs.wikipedia.org/wiki/Tim_Berners-Lee">Timu
+                Berners-Lee</a>.</p>
+        <figure>
+            <img src="img/WWW.png" alt="World Wild Web">
+            <figcaption>World Wild Web</figcaption>
+        </figure>
+        <!-- 1. otázka -->
+        <h2>WWW - Otázky a odpovědi</h2>
+        <div class="otazka">1. Jakou roli plní webový server? Uveďte příklady webových serverů.</div>
+        <div class="odpoved">
+            <p>
+                Je bezobslužný program, který přijímá a obsluhuje požadavky klientů. WWWserver je program, nikoli
+                počítač.
+            </p>
+            <h4>Nejběžnější servery:</h4>
+            <ul>
+                <li><a class="odkaz" href="https://www.iis.net/" target="_blank">Microsoft Internet Information
+                        Server</a></li>
+                <li><a class="odkaz" href="https://www.nginx.com/" target="_blank">NGINX</a></li>
+                <li><a class="odkaz" href="https://httpd.apache.org/" target="_blank">Apache</a></li>
+            </ul>
+        </div>
+        <!-- 2. otazka -->
+        <div class="otazka">2. Jak se nazývá program označovaný jako webový klient? Co je jeho úkolem? Vyjmenujte
+            nejpoužívanější webové klienty.</div>
+        <div class="odpoved">
+            <p>
+                Klient (browser, prohlížeč) je program, který komunikuje s uživatelem, na základě pokynů uživatele se
+                obrací na jednotlivé servery, získává od nich data a zobrazuje je.
+            </p>
+            <h4>Webový klienti:</h4>
+            <ul>
+                <li><a class="odkaz" href="https://www.apple.com/safari/" target="_blank">Safari</a></li>
+                <li><a class="odkaz" href="https://www.microsoft.com/cs-cz/edge" target="_blank">Microsoft Edge</a></li>
+                <li><a class="odkaz" href="https://www.mozilla.org/cs/firefox/new/" target="_blank">Mozilla Firefox</a>
+                </li>
+                <li><a class="odkaz" href="https://www.google.com/intl/cs_CZ/chrome/" target="_blank">Google Chrome</a>
+                </li>
+                <li><a class="odkaz" href="https://www.opera.com/" target="_blank">Opera</a></li>
+            </ul>
+        </div>
+        <!-- 3. otázka -->
+        <div class="otazka">3. Jak probíhá komunikace mezi webovým klientem a webovým serverem?</div>
+        <div class="odpoved">
+            <p>
+                Základem služby WWW je komunikace mezi webovým klientem a webovým serverem pomocí protokolu HTTP.
+            </p>
+            <ul>
+                <li>
+                    komunikační protokol HTTP, pomocí něhož WWW klient a WWW server komunikují
+                </li>
+                <li>
+                    jazyk <abbr class="zkratka" title="HyperText Markup Language">HTML</abbr>, definující formát WWW
+                    stránek, které
+                    server vrací klientovi
+                </li>
+            </ul>
+            <p>
+                Webový server je připojen k počítačové síti a přijímá požadavky v souladu s protokolem HTTP. Tyto
+                požadavky vyřizuje a počítači, který požadavek vznesl, vrací odpověď. Odpověď serveru je
+                opět ve tvaru HTTP, je uvozena hlavičkou obsahující stavový kód, za níž následuje
+                samotný obsah.
+            </p>
+        </div>
+        <!-- 4. otázka -->
+        <div class="otazka">4. Co je HTTP?</div>
+        <div class="odpoved">
+            <ul>
+                <li><abbr class="zkratka" title="HyperText Transfer Protocol">HTTP</abbr> je jednoduchý aplikační
+                    protokol s komunikací
+                    charakteru
+                    požadavek – odpověď. Žádosti mají formu jednoduchých příkazů a mohou být upřesňovány pomocí různých
+                    parametrů, tzv. hlaviček.</li>
+                <li>Odpovědi mají číselný charakter a nejčastěji obsahují i WWW stránku,
+                    kterou klient požadoval.</li>
+            </ul>
+        </div>
+        <!-- 5. otázka -->
+        <h3>Stavové kódy HTTP</h3>
+        <div class="otazka">5. Vypište do tabulky stavové kódy HTTP.</div>
+        <div calss="odpoved">
+            <table>
+                <caption>Stavové kód odpovědi serveru</caption>
+                <tr>
+                    <th>Kód</th>
+                    <th>Typ zprávy</th>
+                </tr>
+                <tr>
+                    <td>1xx</td>
+                    <td>informační zpráva</td>
+                </tr>
+                <tr>
+                    <td>2xx</td>
+                    <td>úspěšné vyřízen</td>
+                </tr>
+                <tr>
+                    <td>3xx</td>
+                    <td>problémy s přesměrováním</td>
+                </tr>
+                <tr>
+                    <td>4xx</td>
+                    <td>chyby s vyřízením požadavku</td>
+                </tr>
+                <tr>
+                    <td>5xx</td>
+                    <td>chyby serveru</td>
+                </tr>
+            </table>
+        </div>
+        <!-- 6. otázka -->
+        <div class="otazka">6. Proč se stále častěji využívá protokol HTTPS?</div>
+        <div class="odpoved">
+            <p>
+                <abbr class="zkratka" title="Hypertext Transfer Protocol Secure">HTTPS</abbr> (HTTP se
+                zabezpečením) je
+                nadstavba
+                protokolu
+                HTTP, která
+                poskytuje zvýšenou bezpečnost před odposloucháváním či podvržením dat. Pro komunikaci pomocí HTTPS
+                musí nejdříve server vlastnit certifikát. Certifikát musí být podepsán tzv. certifikační autoritou,
+                která zaručí, že vlastník certifikátu se nevydává za nikoho jiného. Webové prohlížeče jsou většinou
+                vybaveny podpisovými certifikáty největších podpisových autorit.
+            </p>
+            <h4>Výhody HTTPS</h4>
+            <ul>
+                <li>
+                    možnost ověření identity
+                </li>
+                <li>
+                    důvěrnost přenášených dat
+                </li>
+                <li>
+                    integrita obsahu
+                </li>
+                <li>Cenou za to je mírně složitější konfigurace webového serveru a potřeba udržování certifikátu.
+
+                </li>
+            </ul>
+        </div>
+        <!-- 7. otázka -->
+        <div class="otazka">7. Vysvětlete zkratku URL a připojte pět různých příkladů URL odkazů.</div>
+        <div class="odpoved">
+            <p>
+                <abbr class="zkratka" title="Uniform Resource Locator">URL</abbr> je řetězec znaků s definovanou
+                strukturou, který
+                slouží k
+                přesné specifikaci umístění zdrojů informací (ve smyslu dokument nebo služba) na Internetu. URL
+                definuje doménovou adresu serveru, umístění zdroje na serveru a protokol, kterým je možné zdroj
+                zpřístupnit.
+            </p>
+            <h4>URL odkazy</h4>
+            <ul>
+                <li>
+                    <a class="odkaz" href="https://animeheaven.ru/" target="_blank">https://animeheaven.ru/</a>
+                </li>
+                <li>
+                    <a class="odkaz" href="https://www.freefilm.to/" target="_blank">https://www.freefilm.to//</a>
+                </li>
+                <li>
+                    <a class="odkaz" href="https://cs.wikipedia.org/wiki/Ahoj"
+                        target="_blank">https://cs.wikipedia.org/wiki/Ahoj</a>
+                </li>
+                <li>
+                    <a class="odkaz" href="https://en.wikipedia.org/wiki/Lunar_eclipse"
+                        target="_blank">https://en.wikipedia.org/wiki/Lunar_eclipse</a>
+                </li>
+            </ul>
+        </div>
+        <!-- 8. otázka -->
+        <div class="otazka">8. Co jsou a k čemu slouží tzv. cookies? Připojte obrázek ukazující uložená cookies k
+            některé internetové stránce.</div>
+        <div class="odpoved">
+            <p>
+                Jako cookie (anglicky koláček, oplatka, sušenka) se v protokolu HTTP označuje malé množství dat,
+                která WWW server pošle prohlížeči a ten je uloží na počítači uživatele. Při každé další návštěvě
+                téhož serveru pak prohlížeč tato data posílá zpět serveru. Cookies běžně slouží k rozlišování
+                jednotlivých uživatelů, ukládá se do nich obsah „nákupního košíku“ v elektronických obchodech,
+                uživatelské předvolby apod. Cookie mohou být nebezpečné pro ochranu soukromí. Navštívený web si
+                totiž může ukládat do cookies jakékoliv informace, které o návštěvníkovi shromáždí. Těchto informací
+                se dá posléze i proti vůli návštěvníka zneužívat pro cílenou reklamu, statistické vyhodnocování
+                chování návštěvníků apod.</p>
+            <figure>
+                <img class="cookie" src="img/cookie.png" alt="Cookie">
+            </figure>
+        </div>
+        <!-- 9. otázka -->
+        <div class="otazka">9. Vypište přehledně jednotlivé fáze fungování internetových vyhledávačů.</div>
+        <div class="odpoved">
+            <ol>
+                <li>
+                    <strong>Prohledání webových stránek</strong>. Pro prohledání webových stránek má internetový
+                    vyhledávač
+                    automatický program, tzv. vyhledávací robot (crawler, bot, nebo též spider – „pavouk“), který
+                    prochází celý webový prostor. Robot dostane na začátku seznam atraktivních vstupních míst
+                    (odkazů), jejichž obsah si přečte, uloží do databáze a zapamatuje si navštívenou adresu odkazu,
+                    aby se na ni již podruhé nevracel. Z obsahu stažené stránky vybere seznam všech obsažených
+                    odkazů a opět všechny odkazy navštíví. Cyklus návštěvy, sesbírání odkazů a dalších návštěv se
+                    stále opakuje. Robot se na navštívené stránky vrací v pravidelných intervalech, aby zjistil, zda
+                    se na stránce neobjevily nějaké nové informace. Z principu práce vyhledávače vyplývá, že nikdy
+                    nemá úplně aktuální informace, ale prezentuje je se zpožděním.
+                </li>
+
+                <li>
+                    <strong>Indexování</strong>. Databázi obsahující uložené obsahy navštívených stránek je potřeba
+                    indexovat, aby
+                    bylo možné podle zadaných slov co nejrychleji najít adresy stránek, které je obsahují. Zároveň
+                    je nutné vystavět index tak, aby poskytoval na prvních místech stránky s nejvyšší užitnou
+                    hodnotou (relevancí, mající nejvyšší hodnocení kvality, nejvyšší váhu). Pro výpočet relevance se
+                    používají nejrůznější algoritmy, které jsou založeny na nejrůznějších znacích stránek a různých
+                    úhlech analýzy jejich obsahu:
+                    <ul>
+
+                        <li>
+                            <strong>Váha slov</strong>. Stránka má vyšší hodnocení, když má hledané slovo na stránce
+                            vyšší váhu. Váha
+                            slov se zvyšuje, je-li slovo v titulku stránky, nadpisu nebo blíže k začátku stránky,
+                            případně se na stránce opakuje. Váhu slov lze zneužít vkládáním atraktivních slov do
+                            obsahu stránky bez ohledu na její skutečný obsah nebo prostým opakováním slov.
+                            Vyhledávač se brání penalizací (snížením kvality) podezřelých stránek.
+                        </li>
+
+                        <li>
+                            <strong>Atraktivita stránky</strong>. Stránka má vyšší hodnocení, když na ni odkazuje
+                            více jiných
+                            stránek, protože zřejmě obsahuje zajímavé informace. Atraktivitu lze zneužít vytvářením
+                            falešných stránek, které odkazují na stránku, která má získat vyšší hodnocení.
+                            Vyhledávač se brání sledováním podezřelého náhlého hromadění odkazů.
+                        </li>
+
+                        <li>
+                            <strong>Serióznost webu</strong>. Webové servery, které obsahují velké množství
+                            kvalitních stránek, jsou
+                            při výpočtu váhy zvýhodněny. Seznam se může udržovat i ručními zásahy.
+                        </li>
+
+                        <li>
+                            <strong>Sponzorované odkazy</strong>. Váha odkazu se zvyšuje zaplacením poplatku.
+                            Seriózní vyhledávače se
+                            této praxi vyhýbají nebo zřetelně oddělují výsledky zobrazené na základě komerčního
+                            zvýhodnění. Tento způsob je jedním z možných zdrojů příjmů vyhledávače.
+                        </li>
+
+                        <li>
+                            <strong>Technická kvalita</strong>. Váha odkazu se zvyšuje, pokud jsou stránky správně
+                            sestaveny a
+                            vyhovují webovým standardům.
+                        </li>
+                    </ul>
+                </li>
+                <p>
+                    Někdy je nežádoucí, aby robot indexoval některé stránky. Proto existuje možnost, jak roboty
+                    omezit pomocí souboru robots.txt, který se umisťuje do kořene webového serveru.
+                </p>
+                <li>
+                    <strong>Vyhledávání</strong>. Databáze a její index se zpřístupní na vstupní stránce
+                    vyhledávače. Uživatel získá
+                    po zadání hledaných slov seznam adres, na kterých robot hledaná slova našel. Pro vyšší
+                    přehlednost se zobrazuje kromě odkazu ještě titulek stránky, a okolí nalezených slov.
+                </li>
+            </ol>
+        </div>
+        <!-- 10. otázka -->
+        <div class="otazka">10. Vysvětlete zkratku HTML a pojem hypertext.</div>
+        <div class="odpoved">
+            <ul>
+                <li><abbr title="HyperText Markup Language">HTML</abbr> je v informatice název značkovacího jazyka
+                    používaného pro
+                    tvorbu webových stránek, které jsou propojeny hypertextovými odkazy. </li>
+                <li>Za hypertext označujeme takový
+                    text, který obsahuje propojení na jiné texty pomocí tzv. hypertextových odkazů. Ve službě WWW jsou
+                    realizovány jako tzv. URL odkazy.</li>
+            </ul>
+        </div>
+        <footer>
+            <hr>
+            <p>&copy;2020 - Michael Meinhard IT1</p>
+        </footer>
+    </main>
+</body>
+
+</html>
